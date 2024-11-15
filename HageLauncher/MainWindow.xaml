@@ -1,0 +1,68 @@
+﻿<Window x:Class="HageLauncher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HageLauncher"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="370">
+    <Grid Margin="5,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid HorizontalAlignment="Stretch">
+            <TextBlock FontSize="35" Grid.Row="0">HageLauncher</TextBlock>
+            <Button Width="60" Margin="0,5" HorizontalAlignment="Right">sign up</Button>
+        </Grid>
+
+
+
+
+        <Grid Grid.Row="1" Margin="0,10">
+            <GroupBox Padding="5,0" Header="instances" FontSize="15">
+                <StackPanel>
+
+                    <Grid Margin="0,0,0,5">
+                        <StackPanel Orientation="Vertical" HorizontalAlignment="Left">
+                            <TextBlock FontSize="17" Grid.Row="0">Minecraft RTM</TextBlock>
+                            <TextBlock FontSize="10" Grid.Row="1">Version 1.12.2</TextBlock>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                            <Button Width="50" Margin="3,0" FontSize="11">
+                                Edit
+                            </Button>
+                            <Button Width="70" FontSize="11">
+                                Launch
+                            </Button>
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid Margin="0,0,0,5">
+                        <StackPanel Orientation="Vertical" HorizontalAlignment="Left">
+                            <TextBlock FontSize="17" Grid.Row="0">Minecraft RTM</TextBlock>
+                            <TextBlock FontSize="10" Grid.Row="1">Version 1.12.2</TextBlock>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                            <Button Width="50" Margin="3,0" FontSize="11">
+                                Edit
+                            </Button>
+                            <Button Width="70" FontSize="11">
+                                Launch
+                            </Button>
+                        </StackPanel>
+                    </Grid>
+
+
+                </StackPanel>
+            </GroupBox>
+
+        </Grid>
+
+
+
+    </Grid>
+</Window>
