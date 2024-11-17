@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HageLauncher"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="370">
+        Title="HageLauncher V114514" Height="455" Width="370">
     <Grid Margin="5,0">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
@@ -24,10 +24,10 @@
             <GroupBox Padding="5,0" Header="instances" FontSize="15">
                 <Grid>
                     <StackPanel>
-                        <Grid Margin="0,0,0,5">
+                        <Grid Margin="0,0,0,5" Visibility="Hidden">
                             <StackPanel Orientation="Vertical" HorizontalAlignment="Left">
-                                <TextBlock FontSize="17" Grid.Row="0">Minecraft RTM</TextBlock>
-                                <TextBlock FontSize="10" Grid.Row="1">Version 1.12.2</TextBlock>
+                                <TextBlock FontSize="17" Grid.Row="0">Title</TextBlock>
+                                <TextBlock FontSize="10" Grid.Row="1">Version</TextBlock>
                             </StackPanel>
 
                             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
@@ -40,10 +40,90 @@
                             </StackPanel>
                         </Grid>
 
-                        <Grid Margin="0,0,0,5">
+                        <Grid Margin="0,0,0,5" Visibility="Hidden">
                             <StackPanel Orientation="Vertical" HorizontalAlignment="Left">
-                                <TextBlock FontSize="17" Grid.Row="0">Minecraft RTM</TextBlock>
-                                <TextBlock FontSize="10" Grid.Row="1">Version 1.12.2</TextBlock>
+                                <TextBlock FontSize="17" Grid.Row="0">Title</TextBlock>
+                                <TextBlock FontSize="10" Grid.Row="1">Version</TextBlock>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                                <Button Width="50" Margin="3,0" FontSize="11">
+                                    Edit
+                                </Button>
+                                <Button Width="70" FontSize="11">
+                                    Launch
+                                </Button>
+                            </StackPanel>
+                        </Grid>
+
+                        <Grid Margin="0,0,0,5" Visibility="Hidden">
+                            <StackPanel Orientation="Vertical" HorizontalAlignment="Left">
+                                <TextBlock FontSize="17" Grid.Row="0">Title</TextBlock>
+                                <TextBlock FontSize="10" Grid.Row="1">Version</TextBlock>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                                <Button Width="50" Margin="3,0" FontSize="11">
+                                    Edit
+                                </Button>
+                                <Button Width="70" FontSize="11">
+                                    Launch
+                                </Button>
+                            </StackPanel>
+                        </Grid>
+
+                        <Grid Margin="0,0,0,5" Visibility="Hidden">
+                            <StackPanel Orientation="Vertical" HorizontalAlignment="Left">
+                                <TextBlock FontSize="17" Grid.Row="0">Title</TextBlock>
+                                <TextBlock FontSize="10" Grid.Row="1">Version</TextBlock>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                                <Button Width="50" Margin="3,0" FontSize="11">
+                                    Edit
+                                </Button>
+                                <Button Width="70" FontSize="11">
+                                    Launch
+                                </Button>
+                            </StackPanel>
+                        </Grid>
+
+                        <Grid Margin="0,0,0,5" Visibility="Hidden">
+                            <StackPanel Orientation="Vertical" HorizontalAlignment="Left">
+                                <TextBlock FontSize="17" Grid.Row="0">Title</TextBlock>
+                                <TextBlock FontSize="10" Grid.Row="1">Version</TextBlock>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                                <Button Width="50" Margin="3,0" FontSize="11">
+                                    Edit
+                                </Button>
+                                <Button Width="70" FontSize="11">
+                                    Launch
+                                </Button>
+                            </StackPanel>
+                        </Grid>
+
+                        <Grid Margin="0,0,0,5" Visibility="Hidden">
+                            <StackPanel Orientation="Vertical" HorizontalAlignment="Left">
+                                <TextBlock FontSize="17" Grid.Row="0">Title</TextBlock>
+                                <TextBlock FontSize="10" Grid.Row="1">Version</TextBlock>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                                <Button Width="50" Margin="3,0" FontSize="11">
+                                    Edit
+                                </Button>
+                                <Button Width="70" FontSize="11">
+                                    Launch
+                                </Button>
+                            </StackPanel>
+                        </Grid>
+
+                        <Grid Margin="0,0,0,5" Visibility="Hidden">
+                            <StackPanel Orientation="Vertical" HorizontalAlignment="Left">
+                                <TextBlock FontSize="17" Grid.Row="0">Title</TextBlock>
+                                <TextBlock FontSize="10" Grid.Row="1">Version</TextBlock>
                             </StackPanel>
 
                             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
@@ -56,9 +136,11 @@
                             </StackPanel>
                         </Grid>
                     </StackPanel>
+                    
+                    
 
 
-                    <Button VerticalAlignment="Bottom" FontSize="11" Height="30" Margin="0,5">Add instance</Button>
+                    <Button VerticalAlignment="Bottom" FontSize="11" Height="30" Margin="0,5" x:Name="add_instance_button" Click="add_instance_button_Click">Add instance</Button>
 
                 </Grid>
             </GroupBox>
