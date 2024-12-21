@@ -1,0 +1,160 @@
+﻿<Window x:Class="HageLauncher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HageLauncher"
+        mc:Ignorable="d"
+        Title="HageLauncher V114514" Height="455" Width="370">
+    <Grid Margin="5,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid HorizontalAlignment="Stretch">
+            <TextBlock FontSize="35" Grid.Row="0">HageLauncher</TextBlock>
+            <Button Width="60" Margin="0,5" HorizontalAlignment="Right">sign up</Button>
+        </Grid>
+
+
+
+
+        <Grid Grid.Row="1" Margin="0,10">
+            <GroupBox Padding="5,0" Header="instances" FontSize="15">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+
+
+                    <StackPanel Grid.Row="0">
+                        <Grid Margin="0,0,0,5" Visibility="hidden" x:Name="instance1">
+                            <StackPanel Orientation="Vertical" HorizontalAlignment="Left">
+                                <TextBlock FontSize="17" Grid.Row="0" x:Name="name1">Name</TextBlock>
+                                <TextBlock FontSize="10" Grid.Row="1" x:Name="version1">Version</TextBlock>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                                <Button Width="50" Margin="3,0" FontSize="11" x:Name="edit1" Click="edit_button_Click">
+                                    Edit
+                                </Button>
+                                <Button Width="70" FontSize="11" x:Name="launch1" Click="launch_button_Click">
+                                    Launch
+                                </Button>
+                            </StackPanel>
+                        </Grid>
+
+                        <Grid Margin="0,0,0,5" Visibility="hidden" x:Name="instance2">
+                            <StackPanel Orientation="Vertical" HorizontalAlignment="Left">
+                                <TextBlock FontSize="17" Grid.Row="0" x:Name="name2">Name</TextBlock>
+                                <TextBlock FontSize="10" Grid.Row="1" x:Name="version2">Version</TextBlock>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                                <Button Width="50" Margin="3,0" FontSize="11" x:Name="edit2" Click="edit_button_Click">
+                                    Edit
+                                </Button>
+                                <Button Width="70" FontSize="11" x:Name="launch2" Click="launch_button_Click">
+                                    Launch
+                                </Button>
+                            </StackPanel>
+                        </Grid>
+
+                        <Grid Margin="0,0,0,5" Visibility="hidden" x:Name="instance3">
+                            <StackPanel Orientation="Vertical" HorizontalAlignment="Left">
+                                <TextBlock FontSize="17" Grid.Row="0" x:Name="name3">Name</TextBlock>
+                                <TextBlock FontSize="10" Grid.Row="1" x:Name="version3">Version</TextBlock>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                                <Button Width="50" Margin="3,0" FontSize="11" x:Name="edit3" Click="edit_button_Click">
+                                    Edit
+                                </Button>
+                                <Button Width="70" FontSize="11" x:Name="launch3" Click="launch_button_Click">
+                                    Launch
+                                </Button>
+                            </StackPanel>
+                        </Grid>
+
+                        <Grid Margin="0,0,0,5" Visibility="hidden" x:Name="instance4">
+                            <StackPanel Orientation="Vertical" HorizontalAlignment="Left">
+                                <TextBlock FontSize="17" Grid.Row="0" x:Name="name4">Name</TextBlock>
+                                <TextBlock FontSize="10" Grid.Row="1" x:Name="version4">Version</TextBlock>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                                <Button Width="50" Margin="3,0" FontSize="11" x:Name="edit4" Click="edit_button_Click">
+                                    Edit
+                                </Button>
+                                <Button Width="70" FontSize="11" x:Name="launch4" Click="launch_button_Click">
+                                    Launch
+                                </Button>
+                            </StackPanel>
+                        </Grid>
+
+                        <Grid Margin="0,0,0,5" Visibility="hidden" x:Name="instance5">
+                            <StackPanel Orientation="Vertical" HorizontalAlignment="Left">
+                                <TextBlock FontSize="17" Grid.Row="0" x:Name="name5">Name</TextBlock>
+                                <TextBlock FontSize="10" Grid.Row="1" x:Name="version5">Version</TextBlock>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                                <Button Width="50" Margin="3,0" FontSize="11" x:Name="edit5" Click="edit_button_Click">
+                                    Edit
+                                </Button>
+                                <Button Width="70" FontSize="11" x:Name="launch5" Click="launch_button_Click">
+                                    Launch
+                                </Button>
+                            </StackPanel>
+                        </Grid>
+
+                        <Grid Margin="0,0,0,5" Visibility="hidden" x:Name="instance6">
+                            <StackPanel Orientation="Vertical" HorizontalAlignment="Left">
+                                <TextBlock FontSize="17" Grid.Row="0" x:Name="name6">Name</TextBlock>
+                                <TextBlock FontSize="10" Grid.Row="1" x:Name="version6">Version</TextBlock>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                                <Button Width="50" Margin="3,0" FontSize="11" x:Name="edit6" Click="edit_button_Click">
+                                    Edit
+                                </Button>
+                                <Button Width="70" FontSize="11" x:Name="launch6" Click="launch_button_Click">
+                                    Launch
+                                </Button>
+                            </StackPanel>
+                        </Grid>
+
+                        <Grid Margin="0,0,0,5" Visibility="hidden" x:Name="instance7">
+                            <StackPanel Orientation="Vertical" HorizontalAlignment="Left">
+                                <TextBlock FontSize="17" Grid.Row="0" x:Name="name7">Name</TextBlock>
+                                <TextBlock FontSize="10" Grid.Row="1" x:Name="version7">Version</TextBlock>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                                <Button Width="50" Margin="3,0" FontSize="11" x:Name="edit7" Click="edit_button_Click">
+                                    Edit
+                                </Button>
+                                <Button Width="70" FontSize="11" x:Name="launch7" Click="launch_button_Click">
+                                    Launch
+                                </Button>
+                            </StackPanel>
+                        </Grid>
+
+                    </StackPanel>
+
+
+
+
+                    <Button VerticalAlignment="Bottom" FontSize="11" Height="30" Margin="0,5" x:Name="add_instance_button" Click="add_instance_button_Click" Grid.Row="1">Add instance</Button>
+
+                </Grid>
+            </GroupBox>
+
+        </Grid>
+
+
+
+    </Grid>
+</Window>
